@@ -1,0 +1,22 @@
+
+# Data processing
+numpy
+pandas
+datasets
+scikit-learn
+pyyaml
+
+# LLM and fine-tuning
+transformers
+peft
+accelerate
+evaluate
+bert-score
+
+# MLOps
+dvc
+mlflow
+
+# Development
+pytest
+jupyter

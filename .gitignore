@@ -1,0 +1,38 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model weights and checkpoints
+models/*
+!models/.gitkeep
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Logs and experiment outputs
+logs/
+mlruns/
+*.log
+
+# DVC cache
+.dvc/cache/
+
+# OS
+.DS_Store
+Thumbs.db
