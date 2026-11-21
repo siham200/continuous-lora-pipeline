@@ -10,11 +10,7 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data files
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+
 
 # Model weights and checkpoints
 models/*
